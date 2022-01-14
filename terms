@@ -1,5 +1,18 @@
+mkdir FOLDER_NAME
+cd FOLDER_NAME
+ls -la
+git clone LINK NAME_OF_REPO # copy and paste link from github
+
 git add README.md
 git commit -m "initial commit"
 git status
 git log
 git push origin main
+
+git diff README.md # to see the changes made
+git checkout README.md # to undo the changes
+
+git checkout 268ccb95dc5b1e37bcf7c4f425f512b72a9e147e 
+# get this number from git log, this will change your codes to that particular version
+
+git checkout main # change back to the most up to date version
